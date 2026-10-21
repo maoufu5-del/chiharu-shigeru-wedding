@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f8f5ef">
+<title>CHIHARU & SHIGERU | Wedding Invitation</title>
+<style>
+:root{--ivory:#f8f5ef;--paper:#fffdf9;--ink:#35332f;--muted:#817b70;--gold:#b49a6a;--line:#e5ddcf;--sage:#8b9280}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--ivory);color:var(--ink);font-family:"Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;letter-spacing:.05em}
+a{color:inherit}
+.nav{position:absolute;top:0;left:0;width:100%;display:flex;justify-content:center;gap:clamp(12px,3vw,34px);padding:24px 12px;color:#fff;font-size:10px;letter-spacing:.16em;z-index:2;text-transform:uppercase}
+.nav a{text-decoration:none}
+.hero{min-height:680px;height:92vh;max-height:900px;display:grid;place-items:center;text-align:center;position:relative;overflow:hidden;background:linear-gradient(180deg,rgba(27,27,24,.25),rgba(27,27,24,.44)),url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=2000&q=85') center 48%/cover}
+.hero:after{content:"";position:absolute;inset:14px;border:1px solid rgba(255,255,255,.48);pointer-events:none}
+.hero-content{position:relative;z-index:1;color:#fff;padding:30px 20px}
+.eyebrow{font-size:10px;letter-spacing:.35em;text-transform:uppercase}
+.names{font-family:Georgia,"Times New Roman",serif;font-size:clamp(37px,8vw,76px);font-weight:400;letter-spacing:.08em;line-height:1.2;margin:24px 0}
+.amp{font-style:italic;color:#e8d8b8}
+.date{font-family:Georgia,serif;font-size:16px;letter-spacing:.22em}
+.hero-caption{margin-top:32px;font-size:10px;letter-spacing:.28em}
+main{max-width:900px;margin:auto;padding:0 22px}
+.section{padding:86px 0;text-align:center}
+.kicker{color:var(--gold);font-size:10px;letter-spacing:.3em;text-transform:uppercase}
+h2{font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:clamp(28px,5vw,39px);letter-spacing:.08em;margin:13px 0 22px}
+.lead{font-size:13px;line-height:2.3;color:var(--muted);max-width:560px;margin:0 auto}
+.rule{width:54px;height:1px;background:var(--gold);margin:26px auto}
+.details{background:var(--paper);padding:42px 30px;margin:34px auto 0;max-width:650px;border:1px solid var(--line);display:grid;grid-template-columns:1fr 1fr;gap:30px}
+.detail-label{font-size:10px;color:var(--gold);letter-spacing:.2em;text-transform:uppercase;margin-bottom:12px}
+.detail-value{font-family:Georgia,serif;font-size:20px;line-height:1.6}
+.detail-note{font-size:12px;color:var(--muted);line-height:1.9;margin-top:8px}
+.note{font-size:11px;color:#9a9285;margin-top:24px;line-height:1.8}
+.rsvp-wrap{background:#eeeadf;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+form{max-width:560px;margin:34px auto 0;text-align:left}
+label{display:block;font-size:12px;margin:19px 0 8px}
+input,select,textarea{width:100%;padding:14px 13px;border:1px solid #d8d0c2;background:#fffdf9;border-radius:0;font:inherit;font-size:13px;color:var(--ink)}
+.choice{display:flex;gap:20px;flex-wrap:wrap}
+.choice label{display:flex;align-items:center;gap:8px}
+.choice input{width:auto;accent-color:var(--gold)}
+button{display:block;margin:28px auto 0;padding:15px 42px;background:var(--ink);color:#fff;border:0;font:inherit;font-size:11px;letter-spacing:.2em;cursor:pointer}
+.form-note{font-size:11px;line-height:1.9;color:var(--muted);text-align:center;margin-top:18px}
+footer{text-align:center;padding:35px 15px 45px;font-family:Georgia,serif;font-size:11px;letter-spacing:.18em;color:var(--muted)}
+@media(max-width:600px){.hero{min-height:600px;height:84vh}.nav{gap:13px;font-size:8px;padding-top:22px}.details{grid-template-columns:1fr;padding:30px 20px;gap:25px}.section{padding:68px 0}}
+</style>
+</head>
+<body>
+<nav class="nav" aria-label="Main navigation">
+<a href="#message">Message</a><a href="#information">Information</a><a href="#rsvp">RSVP</a>
+</nav>
+<header class="hero">
+  <div class="hero-content">
+    <div class="eyebrow">Wedding Invitation</div>
+    <h1 class="names">CHIHARU <span class="amp">&amp;</span><br>SHIGERU</h1>
+    <div class="date">20 FEBRUARY 2027</div>
+    <div class="hero-caption">A DAY TO REMEMBER, A LOVE TO CELEBRATE</div>
+  </div>
+</header>
+<main>
+<section class="section" id="message">
+  <div class="kicker">With Love & Gratitude</div>
+  <h2>Welcome to Our Wedding</h2>
+  <div class="rule"></div>
+  <p class="lead">このたび 私たちは結婚式を挙げることとなりました<br>
+  日頃お世話になっている皆さまと<br>
+  心あたたまるひとときを過ごせたら幸いです<br>
+  皆さまにお会いできることを心より楽しみにしております</p>
+</section>
+<section class="section" id="information">
+  <div class="kicker">The Details</div>
+  <h2>Wedding Information</h2>
+  <p class="lead">大切な一日のご案内です。詳細が決まり次第、こちらに掲載いたします。</p>
+  <div class="details">
+    <div>
+      <div class="detail-label">Date</div>
+      <div class="detail-value">Saturday<br>February 20, 2027</div>
+      <div class="detail-note">2027年2月20日（土）</div>
+    </div>
+    <div>
+      <div class="detail-label">Venue</div>
+      <div class="detail-value">長野玉姫殿</div>
+      <div class="detail-note">Nagano Tamahimeden</div>
+    </div>
+    <div>
+      <div class="detail-label">Ceremony</div>
+      <div class="detail-value">15:30</div>
+      <div class="detail-note">挙式開始</div>
+    </div>
+    <div>
+      <div class="detail-label">Reception</div>
+      <div class="detail-value">16:45 – 19:00</div>
+      <div class="detail-note">披露宴</div>
+    </div>
+  </div>
+  <p class="note">※ 会場・時間が決まったら、内容を差し替えられるデザインです。</p>
+</section>
+</main>
+<section class="rsvp-wrap" id="rsvp">
+  <div class="section" style="max-width:900px;margin:auto;padding-left:22px;padding-right:22px">
+    <div class="kicker">Kindly Reply</div>
+    <h2>RSVP</h2>
+    <p class="lead">ご出欠について、以下のフォームよりお知らせください。<br>ご回答期限：後日ご案内いたします。</p>
+    <form id="rsvpForm">
+      <label for="guestName">お名前 *</label>
+      <input id="guestName" name="guestName" autocomplete="name" required placeholder="例：山田 花子">
+      <label>ご出欠 *</label>
+      <div class="choice">
+        <label><input type="radio" name="attendance" value="出席" required> 出席</label>
+        <label><input type="radio" name="attendance" value="欠席" required> 欠席</label>
+      </div>
+      <label for="guests">参加人数</label>
+      <select id="guests" name="guests"><option>1名</option><option>2名</option><option>3名</option><option>4名以上</option></select>
+      <label for="message">メッセージ・アレルギー等（任意）</label>
+      <textarea id="message" name="message" rows="4" placeholder="ご連絡事項があればご記入ください"></textarea>
+      <button type="submit">回答内容を確認する</button>
+      <p class="form-note">このフォームは現在プレビュー用です。入力内容の確認はできますが、回答を主催者へ届けて保存するには、ウェブサイトの公開先と回答保存先の設定が必要です。</p>
+    </form>
+  </div>
+</section>
+<footer>CHIHARU &amp; SHIGERU<br><span style="display:inline-block;margin-top:12px">20 · 02 · 2027</span></footer>
+<script>
+document.getElementById('rsvpForm').addEventListener('submit',function(e){
+  e.preventDefault();
+  const name=document.getElementById('guestName').value.trim();
+  const attendance=document.querySelector('input[name="attendance"]:checked');
+  if(!name||!attendance){alert('お名前とご出欠を入力してください。');return;}
+  alert(name+' 様\\nご回答：'+attendance.value+'\\n\\nこれはプレビューです。回答はまだ主催者へ送信・保存されていません。');
+});
+</script>
+</body>
+</html>
