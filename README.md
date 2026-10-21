@@ -1,2 +1,2 @@
-# chiharu-shigeru-wedding
+# wedding
 wedding lnvitation
